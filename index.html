@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML_PROJECT_Pravanth</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .icon {
+      width: 90px;
+      cursor: pointer;
+      margin-inline: 70px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 900px;
+      border: 2px solid #333;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+    <h1>HTML PROJECT 1</h1>
+
+        <!-- Icon to open Home page -->
+        <a href="./home.html" target="mainframe" >
+            <img src="./images_audio/home-button.png" alt="home_icon" class="icon">
+        </a>
+
+        <!-- Icon to open YouTube with autoplay -->
+        <a href="./about.html" target="mainframe">
+            <img src="./images_audio/about.png" alt="About Icon" class="icon">
+        </a>
+
+        <!-- Icon to open Google Maps -->
+        <a href="./contact.html" target="mainframe">
+            <img src="./images_audio/contact.png" alt="Contact Icon" class="icon">
+        </a>
+
+    <br>
+
+  <!-- Single iframe -->
+  <iframe name="mainframe" src="./home.html" allow="autoplay" allowfullscreen></iframe>
+
+</body>
+</html>
